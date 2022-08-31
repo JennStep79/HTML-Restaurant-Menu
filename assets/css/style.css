@@ -18,7 +18,7 @@ li {
 }
 
 img {
-    width: 100%;
+    width: 60%;
     height: auto;
     max-width: 100%;
 }
@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -53,7 +54,7 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 20%;
     height: auto;
     background-color: white;
 }
@@ -63,8 +64,14 @@ nav a:hover {
     height: auto;
 }
 
+#shrimp-skewers {
+    width:50%;
+    height: auto;
+}
+
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -83,4 +90,12 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+#locations {
+    list-style: none;
+}
+#holiday {
+    width: 100%;
+    padding: 25px;
+    background-color: yellow;
 }
